@@ -3,8 +3,8 @@
     <v-row align="center" class="fill-height">
       <v-col md="3" sm="6" cols="12" class>
         <v-img
-          :src="checkExistance(config.generalConfig.homeImage,0)?config.generalConfig.homeImage:require('@/assets/img/svg/home.svg')"
-          :lazy-src="checkExistance(config.generalConfig.homeImage,0)?config.generalConfig.homeImage:require('@/assets/img/svg/home.svg')"
+          :src="checkExistance(config.generalConfig.homeImage,0)?config.generalConfig.homeImage:require('@/assets/img/dontremove/homevoz.png')"
+          :lazy-src="checkExistance(config.generalConfig.homeImage,0)?config.generalConfig.homeImage:require('@/assets/img/dontremove/homevoz.png')"
           width="100%"
         >
           <template v-slot:placeholder>
@@ -25,17 +25,17 @@
             <span style="color: #1a73e8;">Voz</span>.
           </b>
         </p>
-        <p class="google-font mt-0 mb-0" style="font-size:150%">{{config.generalConfig.name}}</p>
-        <p class="google-font" style="font-size:100%">{{config.generalConfig.shortDescription}}</p>
+        <p class="google-font mt-0 mb-0" style="font-size:150%">Bienvenidos Usuarios</p>
+        <p class="google-font" style="font-size:100%">Asistente de voz, también conocido como asistente personal inteligente o altavoz.</p>
         <p class="google-font" style="font-size:100%;color:#9e9e9e">
-          <span v-for="(item,i) in config.generalConfig.hashtags" :key="i">
+          <span>
             <v-chip
               :href="'https://twitter.com/hashtag/'+item"
               rel="noreferrer"
               target="_blank"
               small
               class="mr-1"
-            >#{{item}}</v-chip>
+            >#AssistentesDeVoz</v-chip>
             <!-- &nbsp; -->
           </span>
         </p>
@@ -48,7 +48,7 @@
           aria-label="Become a Member"
           class="ma-0 google-font elevation-1 primary mr-2"
           style="text-transform: capitalize;border-radius:5px;color:white"
-        >Become a Member</v-btn>
+        >Explora Nuestro Contenido</v-btn>
         <v-btn
           v-if="checkExistance(config.generalConfig.learnMoreLink,0)"
           :href="config.generalConfig.learnMoreLink"
@@ -61,7 +61,7 @@
           outlined
           class="ml-0"
           dark
-        >Learn More</v-btn>
+        >Informate</v-btn>
       </v-col>
     </v-row>
   </v-container>
@@ -80,9 +80,9 @@ export default {
 
 <style scoped>
 .dark-font-color {
-  color: white;
+  color: rgb(247, 0, 0);
 }
 .light-font-color {
-  color: #616161;
+  color: #535353;
 }
 </style>
