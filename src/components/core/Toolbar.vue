@@ -30,7 +30,7 @@
         style="text-decoration:none;font-size:110%"
         :class="this.$vuetify.theme.dark?'whiteText':'blackText'"
       >
-      {{config.generalConfig.shortName || config.generalConfig.name || ""}}</router-link>
+      AssistentesDeVoz</router-link>
     </v-toolbar-title>
     <v-spacer></v-spacer>
 
@@ -47,7 +47,7 @@
         :to="link.to"
         class="google-font"
         @click="onClick($event, link)"
-        style="text-transform: capitalize;"
+        style="text-transform: capitalize; color:black;"
         >{{ link.text }}</v-tab
       >
     </v-tabs>
@@ -60,7 +60,7 @@
     >Offline</v-toolbar-title>
     <PushNotification class="mr-1" />
     <v-btn icon v-on:click="darkMode" class="ml-1" aria-label="Theme Switch BTN">
-      <v-icon v-if="this.$vuetify.theme.dark">mdi-brightness-7</v-icon>
+      <v-icon v-if="this.$vuetify.theme.dark">alien</v-icon>
       <v-icon v-else>mdi-brightness-4</v-icon>
     </v-btn>
   </v-app-bar>
@@ -114,9 +114,9 @@ export default {
 </script>
 <style scoped>
   .whiteText{
-    color:white
+    color:rgb(255, 255, 255)
   } 
   .blackText{
-    color: rgba(0,0,0,.87);
+    color: rgba(5, 106, 238, 0.87);
   } 
 </style>

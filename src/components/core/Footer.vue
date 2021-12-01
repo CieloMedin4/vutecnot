@@ -67,13 +67,13 @@
                 {{ item.linkname }}
             </v-btn>
             <v-spacer></v-spacer>
-           <span class="subtitle-2 google-font"> Based on Project 
+           <span class="subtitle-2 google-font"> Assistentes de 
           <a
             href="https://github.com/gdg-x/aura/"
             target="_blank"
             rel="noreferrer"
             style="text-decoration:none"
-          > Aura</a></span>
+          > Voz</a></span>
           </v-toolbar>
         </v-col>
       </v-row>

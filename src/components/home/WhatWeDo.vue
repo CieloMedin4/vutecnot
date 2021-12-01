@@ -2,12 +2,12 @@
   <v-container fluid>
     <v-row align="center" justify="center">
       <v-col cols="12" md="3" lg="3" sm="4" class>
-        <p class="google-font mb-0" style="font-size:150%">What we do?</p>
+        <p class="google-font mb-0" style="font-size:150%">¿Qué hacen los Asistentes de Voz?</p>
         <p
           class="google-font mt-0"
           style="font-size:95%"
-        >Google Developer Groups (GDGs) are for developers who are interested in Google's developer technology.</p>
-        <p class="google-font" style="font-size:95%">About different Google technologies</p>
+        >Cada día son más útiles, funcionales, accesibles y hasta más entretenidos.</p>
+        <p class="google-font" style="font-size:95%">Los asistentes virtuales rápidamente se están transformando en necesarios electrodomésticos multifuncionales.</p>
         <span v-for="(item,i) in whatwedodata" :key="i">
           <v-tooltip bottom>
             <template v-slot:activator="{ on }">
@@ -25,35 +25,35 @@
           <v-row>
             <v-col md="3" lg="3" sm="6" cols="6" class="text-center pa-2">
               <v-icon large style="font-size:300%">mdi-comment</v-icon>
-              <p class="google-font mt-2" style="font-size:130%">Talks</p>
+              <p class="google-font mt-2" style="font-size:130%">Comentanos</p>
               <p
                 class="google-font"
                 style="font-size:95%"
-              >Get updated with the latest news and announcements</p>
+              >Es importante saber como te encuentras navegando en nuestro Sitio</p>
             </v-col>
             <v-col md="3" lg="3" sm="6" cols="6" class="text-center pa-2">
               <v-icon large style="font-size:300%">mdi-code-tags</v-icon>
-              <p class="google-font mt-2" style="font-size:130%">Codelabs</p>
+              <p class="google-font mt-2" style="font-size:130%">Experiencias</p>
               <p
                 class="google-font"
                 style="font-size:95%"
-              >Get hands-on experience and guidance from the community members</p>
+              >Todo lo que debes saber antes de comprar un asistente de voz</p>
             </v-col>
             <v-col md="3" lg="3" sm="6" cols="6" class="text-center pa-2">
               <v-icon large style="font-size:300%">mdi-school</v-icon>
-              <p class="google-font mt-2" style="font-size:130%">Campus Roadshows</p>
+              <p class="google-font mt-2" style="font-size:130%">Primer Asistente Digital</p>
               <p
                 class="google-font"
                 style="font-size:95%"
-              >Share knowledge in different Companies, colleges and universities</p>
+              >Origen</p>
             </v-col>
             <v-col md="3" lg="3" sm="6" cols="6" class="text-center pa-2">
               <v-icon large style="font-size:300%">mdi-chart-bubble</v-icon>
-              <p class="google-font mt-2" style="font-size:130%">Live Viewing Parties</p>
+              <p class="google-font mt-2" style="font-size:130%">Actualmente en el Mercado Global</p>
               <p
                 class="google-font"
                 style="font-size:95%"
-              >Share knowledge in different Companies, colleges and universities</p>
+              >Sistemas que se encuentran disputando la hegemonía en cuanto a parlantes inteligentes</p>
             </v-col>
           </v-row>
         </v-container>
