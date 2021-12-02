@@ -47,7 +47,7 @@
         :to="link.to"
         class="google-font"
         @click="onClick($event, link)"
-        style="text-transform: capitalize; color:black;"
+        style="text-transform: capitalize; color: #1a73e8;"
         >{{ link.text }}</v-tab
       >
     </v-tabs>
@@ -60,7 +60,7 @@
     >Offline</v-toolbar-title>
     <PushNotification class="mr-1" />
     <v-btn icon v-on:click="darkMode" class="ml-1" aria-label="Theme Switch BTN">
-      <v-icon v-if="this.$vuetify.theme.dark">alien</v-icon>
+      <v-icon v-if="this.$vuetify.theme.dark">mdi_brightness-7</v-icon>
       <v-icon v-else>mdi-brightness-4</v-icon>
     </v-btn>
   </v-app-bar>

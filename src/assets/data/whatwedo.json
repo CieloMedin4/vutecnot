@@ -1,31 +1,31 @@
 [
     {
-        "TechName":"Angular",
-        "image":"angular.svg",
+        "TechName":"Alexa",
+        "image":"alexaaa.png",
         "link":"https://angular.io/"
     },
     {
-        "TechName":"Google Cloud Platform",
+        "TechName":"Lyra",
         "image":"gcp.svg",
         "link":"https://cloud.google.com/"
     },
     {
-        "TechName":"Android",
-        "image":"android.svg",
+        "TechName":"Siri",
+        "image":"siri.png",
         "link":"https://www.android.com/"
     },
     {
-        "TechName":"Actions On Google",
+        "TechName":"Google Asistant",
         "image":"aog.png",
         "link":"https://developers.google.com/actions/"
     },
     {
-        "TechName":"Firebase",
-        "image":"firebase.svg",
+        "TechName":"Cortana",
+        "image":"Cortana.png",
         "link":"https://firebase.google.com/"
     },
     {
-        "TechName":"TensorFlow",
+        "TechName":"Jeannie",
         "image":"tf.svg",
         "link":"https://www.tensorflow.org/"
     }

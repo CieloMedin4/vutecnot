@@ -98,9 +98,9 @@ import { mapState } from 'vuex'
 
 <style scoped>
   .darkThemeTextLink{
-    color: #FAFAFA
+    color: #1a73e8
   }
   .lightThemeTextLink{
-    color: #3E4551
+    color: #070707
   }
 </style>

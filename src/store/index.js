@@ -34,7 +34,7 @@ export default new Vuex.Store({
         },
       },
       {
-        text: 'Página Principal',
+        text: 'Creadoras',
         to: '/team',
         icon: 'mdi-account-settings',
         meta: {
@@ -42,24 +42,24 @@ export default new Vuex.Store({
           showBottomNav: true
         },
       },
-      {
-        text: 'Ofrece',
-        to: '/speakers',
-        icon: 'mdi-assistant',
-        meta: {
-          showToolbar: true,
-          showBottomNav: false
-        },
-      },
       //{
-        //text: 'About',
-       // to: '/about',
-        //icon: 'mdi-comment-alert',
+        //text: 'Ofrece',
+        //to: '/speakers',
+        //icon: 'mdi-assistant',
         //meta: {
           //showToolbar: true,
-          //showBottomNav: true
+          //showBottomNav: false
         //},
       //},
+      {
+        text: 'Origen',
+        to: '/about',
+        icon: 'mdi-comment-alert',
+        meta: {
+          showToolbar: true,
+          showBottomNav: true
+        },
+      },
       {
         text: 'Contacto',
         to: '/contact',
@@ -79,7 +79,7 @@ export default new Vuex.Store({
         },
       },
       {
-        text: 'Origen',
+        text: 'Ofrece',
         to: '/blogs',
         icon: 'mdi-blogger',
         meta: {
