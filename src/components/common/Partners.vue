@@ -5,8 +5,8 @@
                 <p class="google-font mb-1" style="font-weight: 350;font-size:200%"><b>Our
                     <span style="color: #1a73e8;">Partners</span> </b> 
                 </p>
-                <p class="google-font mt-1 mb-0" style="font-size:100%">A very big thank you to all our partners for their continued partnership.</p>
-                <p class="google-font mt-0 mb-0" style="font-size:100%">If you’re interested in being showcased throughout , contact <a style="color:#1565C0;text-decoration: none;" :href="`mailto:${config.generalConfig.email}`">{{config.generalConfig.email}}</a> to discuss sponsorship opportunities.</p>
+                <p class="google-font mt-1 mb-0" style="font-size:100%">Electrodomésticos</p>
+                <p class="google-font mt-0 mb-0" style="font-size:100%">Actualmente podemos encontrar que algunos de los electrodomésticos cuentan con  <a style="color:#1565C0;text-decoration: none;" :href="`mailto:${config.generalConfig.email}`">{{config.generalConfig.email}}</a> inteligencia de este tipo (con asistentes)</p>
             </v-col>
         </v-row>
 

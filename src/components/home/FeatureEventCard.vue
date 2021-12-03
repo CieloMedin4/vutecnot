@@ -8,11 +8,11 @@
         :class="$vuetify.theme.dark == true?'darkModeCardFeatureEvent':'lightModeCardFeatureEvent'"
         class="pa-3 py-5 fill-height"
       >
-        <p class="google-font mb-0" style="font-size:90%">{{data.date | dateFilter}}</p>
-        <p class="google-font mb-0" style="font-size:120%">{{data.name | summary(15)}}</p>
-        <p class="google-font mb-0" style="font-size:90%">{{data.venue.name | summary(20)}}</p>
+        <p class="google-font mb-0" style="font-size:90%">Noticia</p>
+        <p class="google-font mb-0" style="font-size:120%">Millones de Dispositivos</p>
+        <p class="google-font mb-0" style="font-size:90%">2023</p>
         <v-spacer></v-spacer>
-        <p class="mb-0 mt-2 google-font" style="color:#1a73e8">See More</p>
+        <p class="mb-0 mt-2 google-font" style="color:#1a73e8">Visualizar</p>
       </div>
     </template>
     <v-card
@@ -23,7 +23,7 @@
       :class="this.$vuetify.theme.dark == true?'grey darken-3':'white'"
     >
       <v-card-title class="px-5 py-5 google-font" style="background-position:right bottom;">
-        <p class="google-font mb-0" style="font-size:150%">{{data.name}}</p>
+        <p class="google-font mb-0" style="font-size:150%">8,000 millones de estos dispositivos.</p>
         <v-spacer></v-spacer>
         <v-tooltip bottom>
       <template v-slot:activator="{ on }">
@@ -37,14 +37,21 @@
       </v-card-title>
 
       <v-card-text class="pb-5 pt-0">
-        <p class="google-font mb-0" style="font-size:120%">{{data.date}}</p>
-        <p class="google-font mb-0" style="font-size:110%">{{data.venue.name}}</p>
-        <p class="google-font">{{data.time.starttime}} - {{data.time.endtime}}</p>
+        <p class="google-font mb-0" style="font-size:120%">2021-Dic-3</p>
+        <p class="google-font mb-0" style="font-size:110%">Se esperá</p>
+        <p class="google-font">año - 2023</p>
 
         <p class="google-font mb-0" style="font-size:95%">
-          <b>Description</b>
+          <b>Descripción</b>
         </p>
-        <p class="google-font mt-0" style="font-size:110%">{{data.des}}</p>
+        <p class="google-font mt-0" style="font-size:110%">Cada nuevo avance tecnológico que surge en el mundo representa una oportunidad de negocio para las empresas, tal es el caso de los asistentes virtuales de voz, que a pasos agigantados se han posicionado en todo el mundo como una herramienta de uso común.
+
+La implementación de esta tecnología dentro de los hogares ha ido en aumento durante los últimos años, y se espera que para el 2023 a nivel mundial se utilicen 8,000 millones de estos dispositivos. Investigaciones realizadas por Juniper Research han arrojado que los asistentes de voz que crecerán con mayor velocidad son:
+
+Smart TVs: 121.3%
+Altavoces inteligentes: 41.3%
+Wearables: 40.2%
+</p>
 
         <v-btn
           color="indigo"
@@ -53,7 +60,7 @@
           class="ma-0 elevation-0 my-2 mr-3"
           dark
           style="text-transform: capitalize;"
-        >Event Page</v-btn>
+        >Evento</v-btn>
 
         <v-btn
           color="#1a73e8"

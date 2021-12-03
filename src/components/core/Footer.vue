@@ -23,23 +23,23 @@
 
             <v-row justify="start" class="">
               <v-col cols="12" md="3" lg="3" sm="3" class="py-2" >
-                  <p class="google-font mb-0" style="font-size: 140%;font-weight: 300;"><b>About</b></p>
-                  <div v-for="(item,i) in config.footerConfig['About']" :key="i">
-                        <a :href="item.link" rel="noreferrer" :class="$vuetify.theme.dark?'darkThemeTextLink':'lightThemeTextLink'" class="google-font my-3" target="_blank" style="text-decoration: none;font-size:110%">{{item.linkname}}</a><br>
+                  <p class="google-font mb-0" style="font-size: 140%;font-weight: 300;"><b>Acerca de</b></p>
+                  <div >
+                        <a href="#" rel="noreferrer" :class="$vuetify.theme.dark?'darkThemeTextLink':'lightThemeTextLink'" class="google-font my-3" target="_blank" style="text-decoration: none;font-size:110%">Los Asistentes de Voz más comunes</a><br>
                   </div>
               </v-col>
 
               <v-col cols="12" md="3" lg="3" sm="3" class="py-2" >
-                  <p class="google-font mb-0" style="font-size: 140%;font-weight: 300;"><b>Resources</b></p>
-                  <div v-for="(item,i) in config.footerConfig['Resources']" :key="i">
-                        <a :href="item.link" rel="noreferrer" :class="$vuetify.theme.dark?'darkThemeTextLink':'lightThemeTextLink'" class="google-font my-3" target="_blank" style="text-decoration: none;font-size:110%">{{item.linkname}}</a><br>
+                  <p class="google-font mb-0" style="font-size: 140%;font-weight: 300;"><b>Componentes</b></p>
+                  <div >
+                        <a href="#" rel="noreferrer" :class="$vuetify.theme.dark?'darkThemeTextLink':'lightThemeTextLink'" class="google-font my-3" target="_blank" style="text-decoration: none;font-size:110%">El asistente virtual está formado por dos componentes independientes,  la interfaz de usuario (IU) (aspecto), y la base de conocimientos en el interior (inteligencia). La apariencia visual (IU) de los asistentes virtuales pasa por una foto hasta una imagen 3D con emociones.</a><br>
                   </div>
               </v-col>
 
               <v-col cols="12" md="3" lg="3" sm="3" class="py-2" >
-                  <p class="google-font mb-0" style="font-size: 140%;font-weight: 300;"><b>Developer Console</b></p>
-                  <div v-for="(item,i) in config.footerConfig['Developer Console']" :key="i">
-                        <a :href="item.link" rel="noreferrer" :class="$vuetify.theme.dark?'darkThemeTextLink':'lightThemeTextLink'" class="google-font my-3" target="_blank" style="text-decoration: none;font-size:110%">{{item.linkname}}</a><br>
+                  <p class="google-font mb-0" style="font-size: 140%;font-weight: 300;"><b>Facilidades</b></p>
+                  <div >
+                        <a href="#" rel="noreferrer" :class="$vuetify.theme.dark?'darkThemeTextLink':'lightThemeTextLink'" class="google-font my-3" target="_blank" style="text-decoration: none;font-size:110%">Información sin limites, Agenda y Calendario, Temporizador, Reproductor de Música, Conexión con otros dispositivos</a><br>
                   </div>
               </v-col>
             </v-row>
