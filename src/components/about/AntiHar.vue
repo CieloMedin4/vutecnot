@@ -2,13 +2,13 @@
     <v-container fluid class="py-0 my-0 mt-5">
         <v-row class="py-0 my-0">
             <v-col md="12" sm="12" cols="12" class="py-0 my-0">
-                <h1 class="google-font mb-2">AntiHarassment Policy</h1>
+                <h1 class="google-font mb-2">VOZ</h1>
             </v-col>
         </v-row>
         <v-row class="py-0 my-0">
             <v-col md="8" sm="12" cols="12" class="py-0 my-0">
                 <p class="google-font" style="font-size:100%">
-                    <b style="font-size:120%;">Why do we have an official Anti-Harassment policy for {{data}} events?</b>
+                    <b style="font-size:120%;">Comencemos</b>
 
                     <ul class="mt-2" style="font-size:100%">
                         <li class="google-font">It sets expectations for behavior at the event. Simply having an anti-harassment policy can prevent harassment.</li>

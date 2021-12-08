@@ -2,31 +2,31 @@
     {
         "TechName":"Alexa",
         "image":"alexaaa.png",
-        "link":"https://angular.io/"
+        "link":"https://play.google.com/store/apps/details?id=com.amazon.dee.app&hl=es_DO&gl=US"
     },
     {
-        "TechName":"Lyra",
-        "image":"gcp.svg",
-        "link":"https://cloud.google.com/"
+        "TechName":"Google Maps",
+        "image":"googlemaps.png",
+        "link":"https://play.google.com/store/apps/details?id=com.google.android.apps.maps&hl=es_DO&gl=US"
     },
     {
         "TechName":"Siri",
         "image":"siri.png",
-        "link":"https://www.android.com/"
+        "link":"https://play.google.com/store/apps/details?id=appinventor.ai_td84mn.SiriForAndroid&hl=es_DO&gl=US"
     },
     {
         "TechName":"Google Asistant",
         "image":"aog.png",
-        "link":"https://developers.google.com/actions/"
+        "link":"https://play.google.com/store/apps/details?id=com.google.android.apps.googleassistant&hl=es_DO&gl=US"
     },
     {
         "TechName":"Cortana",
         "image":"Cortana.png",
-        "link":"https://firebase.google.com/"
+        "link":"https://www.microsoft.com/es-mx/p/cortana/9nffx4szz23l#activetab=pivot:overviewtab"
     },
     {
-        "TechName":"Jeannie",
-        "image":"tf.svg",
-        "link":"https://www.tensorflow.org/"
+        "TechName":"DataBot",
+        "image":"databott.jpg",
+        "link":"https://play.google.com/store/apps/details?id=com.testa.databot&hl=es&gl=US"
     }
 ]

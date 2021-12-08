@@ -5,7 +5,7 @@
                 <p class="google-font mb-0" style="font-weight: 350;font-size:200%"><b>Our
                     <span style="color: #1a73e8;">Events</span> </b> 
                 </p>
-                <p class="google-font mt-0 mb-0" style="font-size:110%">Questions? Please contact <a style="color:#1565C0;text-decoration: none;" :href="`mailto:${config.generalConfig.email}`">{{config.generalConfig.email}}</a></p>
+                <p class="google-font mt-0 mb-0" style="font-size:110%">Si tienes Preguntas, contactanos.. <a style="color:#1565C0;text-decoration: none;" :href="`mailto:${config.generalConfig.email}`">{{config.generalConfig.email}}</a></p>
             </v-col>
         </v-row>
     </v-container>

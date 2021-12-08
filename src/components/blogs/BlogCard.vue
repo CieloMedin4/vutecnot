@@ -23,11 +23,11 @@
               </template>
           </v-img>
           <div class="pa-3" >
-            <p class="google-font ma-0 mt-2" style="font-size:110%;" >{{data.data.title | summary(20) }}</p>
-            <p class="google-font mt-0 mb-0" style="font-size:90%;">{{data.data.pubDate}}</p>
-            <p class="google-font mt-0 mb-4" style="font-size:90%;">{{data.data.author }}</p>
+            <p class="google-font ma-0 mt-2" style="font-size:110%;" >Asistentes que pudieran interesarte</p>
+            
+            <p class="google-font mt-0 mb-4" style="font-size:90%;">Un asistente de voz permite utilizar el teléfono sin pulsar una tecla, solo necesita voz.</p>
             <!-- <v-chip x-small v-for="(item,i) in data.data.categories" outlined :key="i">{{item}}</v-chip> -->
-            <v-btn target="_blank" text small :href="data.data.link" class="mb-0 mt-0 google-font" style="color:#1a73e8;text-decoration:none">Read</v-btn>
+            <v-btn target="_blank" text small :href="data.data.link" class="mb-0 mt-0 google-font" style="color:#1a73e8;text-decoration:none">Ver más</v-btn>
           </div>
         
     </div>
@@ -56,7 +56,7 @@
         </v-list-item>
 
         <v-card-actions>
-          <v-btn :href="data.data.link" target="_blank" text>Read</v-btn>
+          <v-btn :href="data.data.link" target="_blank" text>Ver más</v-btn>
         </v-card-actions>
       </v-card>
     </div>
